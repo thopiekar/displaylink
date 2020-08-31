@@ -1,6 +1,6 @@
-# displaylink
+# displaylink - Debian/Ubuntu install package
 
-Official software distribution as Debian/Ubuntu package
+Official software distribution transformed into a Debian/Ubuntu package
 
 ## Motivation
 Dear DisplayLink (as a company) I have the fullest respect about your products and I like your products, but understand we are in 2020 and you can ask for licenses in debian packages when executing the "preinst" script.
