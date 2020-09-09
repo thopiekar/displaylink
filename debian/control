@@ -7,9 +7,9 @@ Build-Depends:
  libusb-1.0-0-dev,
  uuid-dev,
 Standards-Version: 4.4.1
-Homepage: <insert the upstream URL, if relevant>
-#Vcs-Browser: https://salsa.debian.org/debian/displaylink
-#Vcs-Git: https://salsa.debian.org/debian/displaylink.git
+Homepage: https://github.com/thopiekar/displaylink
+Vcs-Browser: https://github.com/thopiekar/displaylink
+Vcs-Git: https://github.com/thopiekar/displaylink.git
 
 Package: displaylink
 Architecture: amd64
