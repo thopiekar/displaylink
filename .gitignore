@@ -1,6 +1,7 @@
-*.swp
-*.tar.gz
-*.tar.xz
-*.zip
-pkg/
-src/
+# Debian packaging
+debian/.debhelper/
+debian/debhelper-build-stamp
+debian/displaylink.postrm.debhelper
+debian/displaylink.substvars
+debian/displaylink/*
+debian/files
