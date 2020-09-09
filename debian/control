@@ -2,7 +2,10 @@ Source: displaylink
 Section: unknown
 Priority: optional
 Maintainer: Thomas Karl Pietrowski <thopiekar@unknown>
-Build-Depends: debhelper-compat (= 12)
+Build-Depends:
+ debhelper-compat (= 12),
+ libusb-1.0-0-dev,
+ uuid-dev,
 Standards-Version: 4.4.1
 Homepage: <insert the upstream URL, if relevant>
 #Vcs-Browser: https://salsa.debian.org/debian/displaylink
