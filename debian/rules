@@ -19,16 +19,18 @@ DEB_HOST_ARCH := $(shell dpkg-architecture -qDEB_HOST_ARCH)
 	dh $@
 
 
-# dh_make generated override targets
-# This is example for Cmake (See https://bugs.debian.org/641051 )
+# TODO: Move this to displaylink.install!
 override_dh_auto_install:
 	mkdir -p ./debian/displaylink/opt/displaylink
 	cp ./$(DEB_HOST_ARCH)/DisplayLinkManager ./debian/displaylink/opt/displaylink
 	cp ./firmware/*.spkg ./debian/displaylink/opt/displaylink
 	
+	mkdir -p ./debian/displaylink/lib/systemd/system/
+	cp ./debian/displaylink-driver.service ./debian/displaylink/lib/systemd/system/displaylink-driver.service
+	
 	mkdir -p ./debian/displaylink/lib/systemd/system-sleep/
 	cp ./indep/suspend.sh ./debian/displaylink/lib/systemd/system-sleep/displaylink.sh
-	
+
 	cp ./indep/udev.sh ./debian/displaylink/opt/displaylink
 	
 	mkdir -p ./debian/displaylink/etc/modprobe.d/
