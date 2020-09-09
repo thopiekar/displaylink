@@ -1,0 +1,32 @@
+#!/bin/sh
+set -e
+
+# Source debconf library.
+. /usr/share/debconf/confmodule
+
+# Personal note of distancing from the owership of the main software
+db_input high displaylink/packaging_note || true
+db_go
+
+db_get displaylink/packaging_note
+if [ "$RET" = "false" ]; then
+    exit 1
+fi
+
+# DisplayLink(R) license agreement
+db_input high displaylink/license_agreement || true
+db_go
+
+db_get displaylink/license_agreement
+if [ "$RET" = "false" ]; then
+    exit 1
+fi
+
+# 3rd-party licenses
+db_input high displaylink/license_agreement_3rd_party || true
+db_go
+
+db_get displaylink/license_agreement_3rd_party
+if [ "$RET" = "false" ]; then
+    exit 1
+fi
