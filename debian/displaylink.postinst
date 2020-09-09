@@ -12,6 +12,7 @@ if [ "$1" = "configure" ] || [ "$1" = "abort-upgrade" ] || [ "$1" = "abort-decon
 		deb-systemd-invoke $_dh_action 'displaylink-driver.service' >/dev/null || true
 	fi
 
+    dpkg-trigger /lib/udev/hwdb.d
     dpkg-trigger update-initramfs
 fi
 

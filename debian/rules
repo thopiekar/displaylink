@@ -31,6 +31,8 @@ override_dh_auto_install:
 	mkdir -p ./debian/displaylink/lib/systemd/system-sleep/
 	cp ./indep/suspend.sh ./debian/displaylink/lib/systemd/system-sleep/displaylink.sh
 
+	mkdir -p ./debian/displaylink/lib/udev/rules.d/
+	cp ./indep/60-displaylink.rules ./debian/displaylink/lib/udev/rules.d/
 	cp ./indep/udev.sh ./debian/displaylink/opt/displaylink
 	
 	mkdir -p ./debian/displaylink/etc/modprobe.d/
