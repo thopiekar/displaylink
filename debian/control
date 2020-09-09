@@ -18,5 +18,7 @@ Depends:
  ${misc:Depends},
  evdi-dkms (>= 1.7.0~),
  systemd,
+ udev,
+ initramfs-tools,
 Description: <insert up to 60 chars description>
  <insert long description, indented with spaces>
