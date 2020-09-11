@@ -20,5 +20,9 @@ Depends:
  systemd,
  udev,
  initramfs-tools,
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Conflicts:
+ nvidia-utils,
+Description: DisplayLink - management software
+ The software manages the virtual displays provided by evdi together with the hardware.
+ It basically mirrors the content of the virtual screen including properties like resolution and passes it to the connected screen.
+ Displaylink as a company only gives support for Xorg. Wayland will follow or not.
