@@ -977,3 +977,50 @@ Description: Do you agree to the 3rd-party software license?
  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  SOFTWARE.
+
+Template: displaylink/license_agreement_support_tool
+Type: boolean
+Description: Do you agree to the DisplayLink(R) support tool software license?
+ 
+ IMPORTANT: READ BEFORE COPYING, INSTALLING OR USING.
+ 
+ 
+ This software is provided by DisplayLink (UK) Limited (“DisplayLink”) or its authorized distributor for use by developers, manufacturers and related organizations in connection with testing, installing and optimizing DisplayLink devices.  Do not install or use this software and any associated materials (collectively, the "Software") until you (individual or entity) have carefully read the following terms and conditions and the additional terms that may accompany particular Software   The term “Agreement” means the terms and conditions set forth here together with the additional terms, if applicable. By installing or using the Software, you agree to all these terms and conditions.  If you represent an entity, you warrant that you have authority to bind the entity to this Agreement.  If you do not wish to agree, or you do not have authority to bind the entity, do not install or use the Software. 
+ 
+ 1.      LICENSE.  You may copy the Software onto your organization's computers for internal use only in connection with development, testing, optimization and manufacture of products incorporating DisplayLink devices. This license is subject to these conditions:
+ 
+  
+ 
+ a.      This Software is licensed for use only in conjunction with DisplayLink component products. Use of the Software in conjunction with non-DisplayLink component products is prohibited.
+ 
+ b.      You may not copy, modify, rent, sell, distribute or transfer any part of the Software except as provided in this Agreement, you may not create derivative works and you agree to prevent unauthorized copying, use or distribution of the Software.
+ 
+ c.       You may not reverse engineer, decompile, or disassemble the Software.
+ 
+ d.      You may not sublicense or distribute the Software to any third party or permit use of the Software by any persons other than employees or contractors who have a need to access the Software for the purpose for which it is licensed and you are responsible for ensuring their compliance with this Agreement and all applicable license terms.
+ 
+ e.      Portions of this Software may be subject to other terms and conditions in addition to the terms in this license, and such portions and additional terms will be identified in documentation accompanying the Software.
+ 
+   
+ 
+ 2.      NO OTHER RIGHTS.  No rights or licenses are granted to you, expressly or by implication, with respect to any proprietary information or patent, copyright, mask work, trademark, trade secret, or other intellectual property right owned or controlled by DisplayLink, except as expressly provided in this Agreement.  All rights not expressly granted are reserved.
+ 
+ 3.      CONFIDENTIALITY.  The Software contains confidential information of its owners.  You agree not to use the Software for any purpose other than within the scope of the licenses granted herein, to treat all non-public information contained in the Software as highly confidential information and not to disclose it to third parties except as expressly permitted herein.  If you are using the Software for evaluation or testing purposes, you agree not to disclose any results of such testing or evaluation.
+ 
+ 4.      OWNERSHIP OF SOFTWARE AND COPYRIGHTS.  Title to all copies of the Software remains with DisplayLink or its suppliers.  The Software is copyrighted and protected by the laws of the United States and other countries, and international treaty provisions.  You may not remove any copyright notices from the Software.  DisplayLink may make changes to the Software, or to items referenced therein, at any time without notice, but is not obligated to support or update the Software.  You may transfer the Software only to a successor to your business and provided that the recipient agrees to be fully bound by the terms of this Agreement and you retain no copies of the Software.
+ 
+ 5.      LIMITED MEDIA WARRANTY.  If the Software has been delivered by DisplayLink on physical media, DisplayLink warrants the media to be free from material physical defects for a period of ninety days after delivery by DisplayLink.  If such a defect is found, return the media to DisplayLink for replacement or alternate delivery of the Software as DisplayLink may select.
+ 
+ 6.      EXCLUSION OF OTHER WARRANTIES.  EXCEPT AS PROVIDED ABOVE, THE SOFTWARE IS PROVIDED "AS IS" WITHOUT ANY EXPRESS OR IMPLIED WARRANTY OF ANY KIND INCLUDING, BUT NOT LIMITED TO, WARRANTIES OF MERCHANTABILITY, NONINFRINGEMENT, OR FITNESS FOR A PARTICULAR PURPOSE.  DisplayLink does not warrant or assume responsibility for the accuracy or completeness of any information, text, graphics, links or other items contained within the Software.  The Software is not error free.  The Software and DisplayLink devices are not designed for use in life support or medical monitoring systems, other critical applications or ultra-hazardous activities.  Further, the Software and devices are not designed to meet standards for military applications. You and your distributors and customers assume the full risk of any such uses and will indemnify and hold DisplayLink and its suppliers harmless from any claims that arise as a result of such uses.
+ 
+ 7.       LIMITATION OF LIABILITY.  IN NO EVENT SHALL DISPLAYLINK OR ITS AFFILIATES OR SUPPLIERS BE LIABLE FOR ANY MONETARY DAMAGES WHATSOEVER (INCLUDING, WITHOUT LIMITATION, LOST PROFITS, BUSINESS INTERRUPTION, OR LOST INFORMATION) ARISING OUT OF THE USE OF OR INABILITY TO USE THE SOFTWARE, EVEN IF DISPLAYLINK HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.  SOME JURISDICTIONS PROHIBIT EXCLUSION OR LIMITATION OF LIABILITY FOR IMPLIED WARRANTIES OR CONSEQUENTIAL OR INCIDENTAL DAMAGES, SO THE ABOVE LIMITATION MAY NOT APPLY TO YOU.  YOU MAY ALSO HAVE OTHER LEGAL RIGHTS THAT VARY FROM JURISDICTION TO JURISDICTION.
+ 
+ 8.      TERMINATION OF THIS AGREEMENT.  DisplayLink may terminate this Agreement at any time.  Upon termination, you will immediately destroy the Software or return all copies of the Software to DisplayLink.
+ 
+ 9.      APPLICABLE LAWS.  Claims arising under this Agreement shall be governed by the laws of California, excluding its principles of conflict of laws and the United Nations Convention on Contracts for the International Sale of Goods.  You may not export the Software in violation of applicable export laws and regulations.  DisplayLink is not obligated under any other agreements unless they are in writing and signed by an authorized representative of DisplayLink.
+ 
+  
+ 
+ 10.   U.S. GOVERNMENT RESTRICTED RIGHTS.  The Software is provided with "RESTRICTED RIGHTS."  Use, duplication, or disclosure by the Government is subject to restrictions as set forth in FAR 52.227-14 and DFAR 252.227-7013 et seq. or its successor.  Use of the Software by the Government constitutes acknowledgment of DisplayLink's proprietary rights therein.  Contractor or Manufacturer is DisplayLink (UK) Limited,22 Cambridge Science Park, Milton Road, Cambridge, CB4 0GH, United Kingdom.
+ 
+ 

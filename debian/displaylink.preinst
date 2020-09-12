@@ -22,6 +22,15 @@ if [ "$RET" = "false" ]; then
     exit 1
 fi
 
+# DisplayLink(R) support tool license agreement
+db_input high displaylink/license_agreement_support_tool || true
+db_go
+
+db_get displaylink/license_agreement_support_tool
+if [ "$RET" = "false" ]; then
+    exit 1
+fi
+
 # 3rd-party licenses
 db_input high displaylink/license_agreement_3rd_party || true
 db_go
