@@ -1,5 +1,5 @@
-displaylink (0.0.1-1) unstable; urgency=medium
+displaylink (5.3.1-1) unstable; urgency=medium
 
-  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+  * Based on latest version mentioned above.
 
  -- Thomas Karl Pietrowski <thopiekar@unknown>  Mon, 15 Jun 2020 20:52:49 +0200
