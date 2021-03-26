@@ -3,7 +3,7 @@
 Official software distribution transformed into a Debian/Ubuntu package
 
 ## Motivation
-Dear DisplayLink (as a company) I have the fullest respect about your products and I like your products, but understand we are in 2020 and you can ask for licenses in debian packages when executing the "preinst" script.
+Dear DisplayLink (as a company) I have the fullest respect about your products and I like your products, but understand we are in 2021 and you can ask for licenses in debian packages when executing the "preinst" script.
 Since you distribute your Linux drivers while supporting Ubuntu, I don't see where any other benefits could be...
 
 ## TODOs
