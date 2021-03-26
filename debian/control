@@ -24,8 +24,6 @@ Depends:
  systemd,
  udev,
  initramfs-tools,
-Conflicts:
- nvidia-utils,
 Description: DisplayLink - management software
  The software manages the virtual displays provided by evdi together with the hardware.
  It basically mirrors the content of the virtual screen including properties like resolution and passes it to the connected screen.
