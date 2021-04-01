@@ -1,0 +1,22 @@
+#! /usr/bin/dh-exec
+
+# Displaylink software
+${DEB_HOST_ARCH}/DisplayLinkManager /opt/displaylink/
+firmware/*.spkg /opt/displaylink/
+
+
+# systemd
+debian/displaylink-driver.service /usr/lib/systemd/system/displaylink-driver.service
+
+# udev helper script
+indep/suspend.sh /usr/lib/systemd/system-sleep/displaylink.sh
+
+# udev
+indep/60-displaylink.rules /usr/lib/udev/rules.d/
+indep/udev.sh /opt/displaylink/
+
+# modprobe
+indep/modprobe.d/displaylink-evdi.conf /etc/modprobe.d/
+
+# Xorg
+indep/xorg.conf.d/20-displaylink.conf /usr/share/X11/xorg.conf.d/

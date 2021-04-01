@@ -17,32 +17,3 @@ DEB_HOST_ARCH := $(shell dpkg-architecture -qDEB_HOST_ARCH)
 
 %:
 	dh $@
-
-
-# TODO: Move this to displaylink.install!
-override_dh_auto_install:
-	# Displaylink software
-	mkdir -p ./debian/displaylink/opt/displaylink
-	cp ./$(DEB_HOST_ARCH)/DisplayLinkManager ./debian/displaylink/opt/displaylink
-	cp ./firmware/*.spkg ./debian/displaylink/opt/displaylink
-	
-	# systemd
-	mkdir -p ./debian/displaylink/lib/systemd/system/
-	cp ./debian/displaylink-driver.service ./debian/displaylink/lib/systemd/system/displaylink-driver.service
-	
-	# udev helper script
-	mkdir -p ./debian/displaylink/lib/systemd/system-sleep/
-	cp ./indep/suspend.sh ./debian/displaylink/lib/systemd/system-sleep/displaylink.sh
-
-	# udev
-	mkdir -p ./debian/displaylink/lib/udev/rules.d/
-	cp ./indep/60-displaylink.rules ./debian/displaylink/lib/udev/rules.d/
-	cp ./indep/udev.sh ./debian/displaylink/opt/displaylink
-	
-	# modprobe
-	mkdir -p ./debian/displaylink/etc/modprobe.d/
-	cp ./indep/modprobe.d/displaylink-evdi.conf ./debian/displaylink/etc/modprobe.d/
-	
-	# Xorg
-	mkdir -p ./debian/displaylink/usr/share/X11/xorg.conf.d/
-	cp ./indep/xorg.conf.d/20-displaylink.conf ./debian/displaylink/usr/share/X11/xorg.conf.d/
