@@ -14,12 +14,12 @@ Vcs-Git: https://github.com/thopiekar/displaylink.git
 Package: displaylink
 Architecture: amd64
 Depends:
+# EVDI
+ evdi-dkms (>= 1.9.0),
+ libevdi0-dev (>= 1.9.0),
 # Debhelper
  ${shlibs:Depends},
  ${misc:Depends},
-# EVDI
- evdi-dkms (>= 1.7.0~),
- libevdi0-dev (>= 1.7.0~),
 # System tools
  systemd,
  udev,
