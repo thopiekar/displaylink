@@ -3,7 +3,7 @@ Section: unknown
 Priority: optional
 Maintainer: Thomas Karl Pietrowski <thopiekar@unknown>
 Build-Depends:
- debhelper-compat (= 12),
+ debhelper-compat (= 13),
  libusb-1.0-0-dev,
  uuid-dev,
 Standards-Version: 4.4.1
