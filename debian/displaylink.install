@@ -4,10 +4,6 @@
 ${DEB_HOST_ARCH}/DisplayLinkManager /opt/displaylink/
 firmware/*.spkg /opt/displaylink/
 
-
-# systemd
-debian/displaylink-driver.service /usr/lib/systemd/system/displaylink-driver.service
-
 # udev helper script
 indep/suspend.sh /usr/lib/systemd/system-sleep/displaylink.sh
 

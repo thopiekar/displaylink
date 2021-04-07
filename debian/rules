@@ -17,3 +17,8 @@ DEB_HOST_ARCH := $(shell dpkg-architecture -qDEB_HOST_ARCH)
 
 %:
 	dh $@
+
+override_dh_installsystemd:
+	dh_installsystemd \
+	    --name displaylink-driver \
+	    --restart-after-upgrade
